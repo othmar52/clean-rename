@@ -1,5 +1,5 @@
 # clean-rename
-recursive replacing special chars in UNIX-filesystem with most similar alphanumerics
+recursive replacing special chars in UNIX-UTF8-filesystem with most similar alphanumerics
 
 	Špêçïål ©harš in filesÿsteμ/$ù¢κš.e×t -> Special_chars_in_filesystem/Sucks.ext
 
@@ -22,4 +22,17 @@ show result
 
 	~/othmar52/clean-rename $ find /tmp/clean-rename-demo -type f
 	/tmp/clean-rename-demo/Special_chars_in_filesystem/Sucks.ext
+
 	
+# troubleshooting
+
+in case your result from the above exaple looks like this
+
+	Yapaeacaiaal_eharYa_in_filesaysteu/SauauYa.eat
+
+you have to make sure your session is UTF-8. one way to achieve this is to add following lines to your ´~/.bashrc´
+
+	export LC_ALL=en_US.UTF-8
+	export LANG=en_US.UTF-8
+	export LANGUAGE=en_US.UTF-8
+
