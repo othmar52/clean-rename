@@ -26,11 +26,7 @@ show result
 	
 # troubleshooting
 
-in case your result from the above exaple looks like this
-
-	Yapaeacaiaal_eharYa_in_filesaysteu/SauauYa.eat
-
-you have to make sure your session is UTF-8. one way to achieve this is to add following lines to your ´~/.bashrc´
+in case the result from the example above looks like this `Yapaeacaiaal_eharYa_in_filesaysteu/SauauYa.eat` you have to make sure your session is UTF-8. one way to achieve this is to add following lines to your `~/.bashrc`
 
 	export LC_ALL=en_US.UTF-8
 	export LANG=en_US.UTF-8
