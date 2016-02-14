@@ -1,2 +1,2 @@
 # clean-rename
-recursive removing special chars in filesystem with most similar alphanumerics
+recursive removing special chars in UNIX-filesystem with most similar alphanumerics
