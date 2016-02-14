@@ -1,7 +1,10 @@
 #!/bin/bash
 ############################################################################
 # recursive replacement of special chars in filesystem
-# TODO: trailing whitespaces in filename does not work "filename.mp3 "
+# TODO: trailing whitespaces in filename/dirname does not work "filename.ext "
+# TODO: backslash in filename/dirname does not work "filena\me.ext"
+# TODO: add optional argument switch for renaming to lowercase
+# TODO: add optional argument switch for dry run
 ############################################################################
 
 TEMP_FILE=/tmp/clean-rename
