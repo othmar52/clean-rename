@@ -1,11 +1,9 @@
 # clean-rename
-recursive removing special chars in UNIX-filesystem with most similar alphanumerics
+recursive replacing special chars in UNIX-filesystem with most similar alphanumerics
 
-	Špêçïål ©harš in filesÿsteμ/$ù¢κš.e×t
+	Špêçïål ©harš in filesÿsteμ/$ù¢κš.e×t -> Special_chars_in_filesystem/Sucks.ext
 
-gets renamed to
-
-	Special_chars_in_filesystem/Sucks.ext
+# demo	
 
 create testfiles
 
