@@ -2,6 +2,7 @@
 recursive removing special chars in UNIX-filesystem with most similar alphanumerics
 
 	Špêçïål ©harš in filesÿsteμ/$ù¢κš.e×t
+
 gets renamed to
 
 	Special_chars_in_filesystem/Sucks.ext
