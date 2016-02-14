@@ -24,3 +24,4 @@ show result
 
 	~/othmar52/clean-rename $ find /tmp/clean-rename-demo -type f
 	/tmp/clean-rename-demo/Special_chars_in_filesystem/Sucks.ext
+	
