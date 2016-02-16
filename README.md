@@ -1,14 +1,13 @@
 # clean-rename
-recursive replacing special chars in UNIX-UTF8-filesystem with most similar alphanumerics
+recursive replacing special chars in UNIX-UTF8-filesystem with most similar alphanumerics in filenames and directorynames
 
 	Špêçïål ©harš in filesÿsteμ/$ù¢κš.e×t -> Special_chars_in_filesystem/Sucks.ext
 
 # demo	
 
-create testfiles
+create testdirectory and testfile
 
-	~/othmar52/clean-rename $ mkdir /tmp/clean-rename-demo
-	~/othmar52/clean-rename $ mkdir "/tmp/clean-rename-demo/Špêçïål ©harš in filesÿsteμ"
+	~/othmar52/clean-rename $ mkdir -p "/tmp/clean-rename-demo/Špêçïål ©harš in filesÿsteμ"
 	~/othmar52/clean-rename $ touch "/tmp/clean-rename-demo/Špêçïål ©harš in filesÿsteμ/$ù¢κš.e×t"
 	
 run clean-rename
